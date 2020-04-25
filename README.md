@@ -1,6 +1,16 @@
 # PyTorch Object Detection and Tracking
 Object detection in images, and tracking across video frames
 
+### How to use
+1. Run the download_weights.sh script in the config folder to download the Yolo weights file.
+2. run(recommend do it in venv or pinenv):
+```shell script pip3 install -r requirements.txt --user```
+3. Then run next command: 
+```shell script
+python3 object_tracker.py -p <video_path>
+```
+There the -p means path to video including the file name and extension (.avi and .mp4 are tested). 
+
 Full story at:
 https://towardsdatascience.com/object-detection-and-tracking-in-pytorch-b3cf1a696a98
 
